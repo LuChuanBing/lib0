@@ -1,5 +1,8 @@
 package math
 
-func Add(a, b, c int) int {
-	return a + b + c
+import "fmt"
+
+func Add(a, b int) int {
+	fmt.Println("v1.1.1")
+	return a + b
 }

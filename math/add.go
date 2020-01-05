@@ -2,7 +2,7 @@ package math
 
 import "fmt"
 
-func Add(a, b int) int {
-	fmt.Println("v1.3.1")
-	return a + b
+func Add(a, b, c int) int {
+	fmt.Println("v2.0.0")
+	return a + b + c
 }
